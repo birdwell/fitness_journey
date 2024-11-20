@@ -15,9 +15,9 @@ Future<void> main() async {
   // * Register error handlers. For more info, see:
   // * https://docs.flutter.dev/testing/errors
   registerErrorHandlers();
-  // * Initialize Firebase
+
   await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
-  // * Entry point of the app
+  
   runApp(const ProviderScope(
     child: MyApp(),
   ));

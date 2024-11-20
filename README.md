@@ -24,17 +24,6 @@ A Flutter web preview of the app is available here:
 
 All the data is persisted with Firestore and is kept in sync across multiple devices.
 
-## Roadmap
-
-- [ ] Add missing tests
-- [x] Stateful Nested Navigation (available since GoRouter 7.1)
-- [ ] Use controllers / notifiers consistently across the app (some code still needs to be updated)
-- [ ] Add localization
-- [ ] Use the new Firebase UI packages where useful
-- [ ] Responsive UI
-
-> This is a tentative roadmap. There is no ETA for any of the points above. This is a low priority project and I don't have much time to maintain it.
-
 ## Relevant Articles
 
 The app is based on my Flutter Riverpod architecture, which is explained in detail here:
